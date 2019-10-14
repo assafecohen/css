@@ -17,11 +17,9 @@ a{
 }
 h1,h2,h3{
   padding-bottom: 20px;
-  color: #fff;
 }
 p{
   margin: 10px;
-  color: #fff;
 }
 /* Utility classes */
 .container{
@@ -58,13 +56,17 @@ p{
 }
 .bg_light{
   background: #f4f4f4;
-  color: rgb(235, 204, 137);
-}
-.bg_primary{
-  background: #333;
   color: #333;
 }
-vb
+.bg_primary{
+  background: rgb(235, 204, 137);;
+  color: #333;
+}
+.clr{
+  clear: both;
+}
+
+
 /* NavBar */
 #navbar{
   background: rgb(22, 22, 22);
@@ -105,11 +107,13 @@ cursor: pointer;
 #showcase h1{
   font-size: 3em;
   line-height: 1.2em;
+  color: #fff;
 }
 
 #showcase .showcase-content p{
   margin-bottom: 20px;
   line-height: 1.7em;
+  color: #fff;
 }
 /* Home Info */
 #home_info{
@@ -132,3 +136,22 @@ cursor: pointer;
 #home_info .info_content p{
   padding-bottom: 30px;
 }
+
+/* Features */
+.box{
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  text-align: center;
+}
+
+.box i{
+  margin-bottom: 10px;
+}
+/* Footer */
+  #main_footer{
+    text-align: center;
+    background: #444;
+    color: #fff;
+    padding: 20px;
+  }
