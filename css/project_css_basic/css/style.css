@@ -7,7 +7,6 @@
 html,body{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.7em;
-  background: rgb(22, 22, 22);
 }
 ul{
   list-style: none;
@@ -18,9 +17,11 @@ a{
 }
 h1,h2,h3{
   padding-bottom: 20px;
+  color: #fff;
 }
 p{
   margin: 10px;
+  color: #fff;
 }
 /* Utility classes */
 .container{
@@ -29,7 +30,45 @@ p{
   overflow: auto;
   padding: 0 20px;
 }
+.text_primary{
+  color:rgb(235, 204, 137);
+}
+.lead{
+  font-size: 20px;
+}
+.btn{
+  display: inline-block;
+  background: rgb(41, 41, 41);
+  font-size: 18px;
+  padding: 13px 20px;
+  border: none;
+  cursor: pointer;
+}
+.btn:hover{
+  background: rgb(235, 204, 137);
+  color: #333;
+}
+.btn_light{
+  background: #f4f4f4;
+  color: #333;
+}
+.bg_dark{
+  background: #333;
+  color: #fff;
+}
+.bg_light{
+  background: #f4f4f4;
+  color: rgb(235, 204, 137);
+}
+.bg_primary{
+  background: #333;
+  color: #333;
+}
+vb
 /* NavBar */
+#navbar{
+  background: rgb(22, 22, 22);
+}
 #navbar h1{
   float:left;
   padding: 20px;
@@ -50,4 +89,46 @@ p{
 color: rgb(235, 204, 137);
 background: rgb(41, 41, 41);
 cursor: pointer;
+}
+
+/* showcase */
+#showcase{
+  background: url('../img/showcase.jpg') no-repeat center center;
+  background-size: cover;
+  height: 600px;
+}
+
+#showcase .showcase-content{
+  text-align: center;
+  margin-top: 170px;
+}
+#showcase h1{
+  font-size: 3em;
+  line-height: 1.2em;
+}
+
+#showcase .showcase-content p{
+  margin-bottom: 20px;
+  line-height: 1.7em;
+}
+/* Home Info */
+#home_info{
+  height:400px;
+}
+#home_info .info_img{
+  float:left;
+  width: 50%;
+  background: url('../img/photo-1.jpg') no-repeat;
+  min-height: 100%;
+}
+#home_info .info_content{
+  float: right;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  padding: 50px 30px;
+  overflow: hidden;
+}
+#home_info .info_content p{
+  padding-bottom: 30px;
 }
