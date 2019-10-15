@@ -68,6 +68,7 @@ p{
 }
 .l-heading{
   font-size: 3em;
+  line-height: 1.2;
 }
 /* padding */
 .py-1{
@@ -146,10 +147,6 @@ cursor: pointer;
   padding: 50px 30px;
   overflow: hidden;
 }
-#home_info .info_content p{
-  padding-bottom: 30px;
-}
-
 /* Features */
 .box{
   float: left;
@@ -180,7 +177,7 @@ cursor: pointer;
 }
 /* Testimonials */
 #testimonials{
-  height: 600px;
+  height: 100%;
   background: url('../img/test-bg.jpg ') no-repeat center center/cover;
   padding-top: 100px;
 }
